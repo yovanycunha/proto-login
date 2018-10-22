@@ -1,0 +1,94 @@
+.Login {
+    display: inline-block;
+    /* background-image: radial-gradient(#f7f7f7, #003F5D); */
+    background-color: #f7f7f700;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.7rem;
+    
+}
+.LoginSection {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .3);
+    height: 40rem;
+    width: 40rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .6);
+
+}
+
+.LoginSection__Img {
+    height: 10rem;
+} 
+
+.LoginSection__Header{
+    color: #006699;
+    font-size: 2rem;
+    margin: 5rem 1rem ;
+    text-align: center;
+}
+
+.LoginForm {
+    padding: 5rem 0;
+    transition: all .2s;
+}
+
+.LoginForm__Group{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.LoginForm__Input{
+    color: #003F5D;
+    padding: .5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: .1rem solid #003F5D;
+    height: 2.5rem;
+    width: 70%;
+
+}
+
+.LoginForm__Input:focus {
+    border-bottom: .2rem solid #003F5D;
+    outline: none;
+
+}
+
+.LoginForm__Button {
+    color: #f7f7f7;
+    width: 63%;
+    padding: 1rem 2rem;
+    border-radius: .7rem;
+    border: none;
+    outline: none;
+    background-color: #006699;
+    cursor: pointer;
+    position: relative;
+}
+
+button.LoginForm__Button:active {
+    content: "";
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .4);
+}
+
+
+.LoginForm__Button:hover {
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .4);
+    transform: translateY(-.3rem);
+}
+
+
+.LoginForm__Forgot {
+    font-size: 1.4rem;
+    padding: 5rem;
+}
+
+.LoginForm__Forgot a {
+    text-decoration: underline;
+    color: #333;
+}
